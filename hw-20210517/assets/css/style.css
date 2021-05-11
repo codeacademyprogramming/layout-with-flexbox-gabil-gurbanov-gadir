@@ -1,0 +1,447 @@
+/* Grig css START */
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-boxs;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    width: calc(100% * 1 / 12);
+}
+
+.col-2 {
+    width: calc(100% * 2 / 12);
+}
+
+.col-3 {
+    width: calc(100% * 3 / 12);
+}
+
+.col-4 {
+    width: calc(100% * 4 / 12);
+}
+
+.col-5 {
+    width: calc(100% * 5 / 12);
+}
+
+.col-6 {
+    width: calc(100% * 6 / 12);
+}
+
+.col-7 {
+    width: calc(100% * 7 / 12);
+}
+
+.col-8 {
+    width: calc(100% * 8 / 12);
+}
+
+.col-9 {
+    width: calc(100% * 9 / 12);
+}
+
+.col-10 {
+    width: calc(100% * 10 / 12);
+}
+
+.col-11 {
+    width: calc(100% * 11 / 12);
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.text-align-end {
+    text-align: end;
+}
+
+
+/* Grid css END */
+
+
+/* HEADER STARTED */
+
+header {
+    background-color: #0F2B40;
+    padding-top: 10px;
+    padding-bottom: 6px;
+}
+
+span {
+    display: inline-block;
+    background-color: #1AC8A0;
+}
+
+span.nav-left {
+    width: 70px;
+    height: 4px;
+    margin-right: 8px;
+    border-radius: 4px;
+}
+
+span.nav-right {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+
+/* HEADER ENDED */
+
+
+/* MAIN STARTED */
+
+main {
+    background-color: #CED8E1;
+}
+
+
+/* top-main START */
+
+#top-main {
+    background-color: #CED8E1;
+}
+
+#top-main .img-logo {
+    height: 75px;
+    background-color: #0F2B40;
+    margin: 30px 10px;
+    border-radius: 15px;
+}
+
+#top-main .list {
+    text-align: end;
+    margin-top: 85px;
+}
+
+#top-main ul li {
+    background-color: #1AC8A0;
+    width: 100px;
+    height: 7px;
+    margin-right: 25px;
+    border-radius: 7px;
+    display: inline-block;
+}
+
+
+/* top-main END */
+
+
+/* main-header START */
+
+#main-header {
+    background-color: #0F2B40;
+    text-align: center;
+    padding-top: 60px;
+}
+
+#main-header h1 {
+    padding-bottom: 20px;
+}
+
+#main-header h1 span {
+    width: 110px;
+    height: 11px;
+    margin-right: 10px;
+    border-radius: 11px;
+}
+
+#main-header p {
+    width: 500px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+#main-header p span {
+    background-color: #CED8E1;
+    width: 70px;
+    height: 4px;
+    margin-right: 8px;
+    border-radius: 4px;
+}
+
+#main-header p span:first-child {
+    width: 90px;
+}
+
+#main-header p span:nth-child(7) {
+    width: 95px;
+}
+
+#main-header span.price {
+    width: 160px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+#main-header .images {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#main-header .images .image {
+    width: 310px;
+    margin: 0 auto;
+    height: 210px;
+    background-color: #1AC8A0;
+    border-radius: 20px;
+    position: relative;
+    top: 85px;
+}
+
+
+/* main-header END */
+
+
+/* cards START */
+
+#cards {
+    background-color: #CED8E1;
+    padding-top: 210px;
+    text-align: center;
+}
+
+section h3 span {
+    width: 110px;
+    height: 10px;
+    margin-right: 12px;
+    border-radius: 10px;
+}
+
+section h3 span:last-child {
+    width: 60px;
+}
+
+section h3 {
+    padding-bottom: 70px;
+}
+
+#cards .card {
+    border: 2px solid #0F2B40;
+    border-radius: 20px;
+    width: 410px;
+    margin-bottom: 40px;
+}
+
+#cards .card .card-container {
+    width: 365px;
+    margin: 16px auto;
+}
+
+#cards .card .card-image {
+    background-color: #0F2B40;
+    height: 200px;
+    border-radius: 20px;
+}
+
+#cards .card .card-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 22px auto;
+}
+
+#cards .card .card-info span {
+    width: 45px;
+    height: 6px;
+    border-radius: 6px;
+}
+
+#cards .card .card-text {
+    text-align-last: left;
+    margin: 22px auto;
+}
+
+#cards .card .card-text span {
+    width: 75px;
+    height: 6px;
+    border-radius: 6px;
+    background-color: #0F2B40;
+    margin-bottom: 15px;
+}
+
+#cards .card .card-icons {
+    border-top: 2px solid #0F2B40;
+}
+
+#cards .card .card-icons .icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+#cards .card .card-icons .icons>span:first-child {
+    width: 60px;
+    height: 20px;
+    border-radius: 6px;
+}
+
+#cards .card .card-icons .icons>span:last-child {
+    background-color: transparent;
+}
+
+#cards .card .card-icons .icons span span {
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
+    margin-right: 5px;
+}
+
+
+/* cards END */
+
+
+/* examples START */
+
+#examples {
+    padding: 60px 0;
+    text-align: center;
+}
+
+#examples .example {
+    width: 310px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #1AC8A0;
+}
+
+#examples .example.last {
+    background-image: repeating-linear-gradient(135deg, #0F2B40 4%, #1AC8A0 12%);
+}
+
+
+/* examples END */
+
+
+/* persons START */
+
+#persons {
+    padding-top: 60px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+#persons .persons-container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+#persons .person-image {
+    background-color: #0F2B40;
+    border-radius: 50%;
+    width: 200px;
+    margin: 0 auto;
+    height: 200px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+#persons .person .person-image.active {
+    width: 300px;
+    height: 300px;
+    margin-top: 0;
+}
+
+#persons .person span {
+    margin-bottom: 14px;
+}
+
+#persons .person h4 span {
+    background-color: #0F2B40;
+    width: 60px;
+    height: 8px;
+    border-radius: 8px;
+    margin-right: 5px;
+}
+
+#persons .person p span {
+    background-color: #0F2B40;
+    width: 50px;
+    height: 5px;
+    border-radius: 5px;
+}
+
+#persons .person p.salary span {
+    background-color: #1AC8A0;
+    width: 30px;
+}
+
+
+/* persons END */
+
+
+/* MAIN ENDED */
+
+
+/* FOOTER STARTED */
+
+footer {
+    background-color: #0F2B40;
+    padding: 60px 0;
+}
+
+footer .social-links ul:first-child {
+    margin-bottom: 60px;
+}
+
+footer .social-links ul:first-child li {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    margin-right: 12px;
+    background-color: #1AC8A0;
+}
+
+footer .social-links ul:last-child li {
+    display: inline-block;
+    width: 60px;
+    height: 4px;
+    border-radius: 4px;
+    margin-right: 16px;
+    background-color: #1AC8A0;
+}
+
+footer .links h4 {
+    width: 90px;
+    height: 8px;
+    border-radius: 8px;
+    background-color: #1AC8A0;
+    margin-bottom: 30px;
+}
+
+footer .links ul li {
+    width: 70px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #CED8E1;
+    margin-bottom: 18px;
+}
+
+
+/* FOOTER ENDED */
